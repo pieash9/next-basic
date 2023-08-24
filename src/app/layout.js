@@ -19,7 +19,7 @@ const RootLayout = ({ children }) => {
         suppressHydrationWarning={true}
         className={`${roboto.className} font-roboto`}
       >
-        {children}
+        <div className="container mx-auto">{children}</div>
       </body>
     </html>
   );
