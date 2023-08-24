@@ -11,9 +11,9 @@ export const generateMetadata = async ({ params }) => {
 
 export const generateStaticParams = async () => {
   const blogs = await loadBlogData();
-  return blogs.map(({ id }) => {
-    id: id.toString();
-  });
+  return blogs.map(({ id }) => ({
+    id: id.toString(),
+  }));
 };
 const SingleBlog = async ({ params }) => {
   const { id, title, body } = await loadSingleBlogData(params.id);
