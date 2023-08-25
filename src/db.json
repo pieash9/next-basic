@@ -55,7 +55,7 @@
     {
       "id": 2,
       "title": "Samsung Galaxy S25",
-      "price": "12",
+      "price": "122",
       "categoryId": 1,
       "features": [
         "Exynos 2100 chip",
@@ -69,7 +69,11 @@
       "title": "Aony Bravia 4K Smart TV",
       "price": "170",
       "categoryId": 1,
-      "features": ["65-inch 4K HDR display", "Android TV", "Dolby Atmos sound"],
+      "features": [
+        "65-inch 4K HDR display",
+        "Android TV",
+        "Dolby Atmos sound"
+      ],
       "imageUrl": "https://example.com/sonytv.jpg"
     },
     {
@@ -77,7 +81,11 @@
       "title": "Levi's Men's 501 Jeans",
       "price": "140",
       "categoryId": 2,
-      "features": ["100% cotton", "Classic straight fit", "Button fly"],
+      "features": [
+        "100% cotton",
+        "Classic straight fit",
+        "Button fly"
+      ],
       "imageUrl": "https://example.com/levisjeans.jpg"
     },
     {
@@ -217,7 +225,11 @@
       "title": "iPad Pro",
       "price": 1099,
       "categoryId": 1,
-      "features": ["M1 chip", "Liquid Retina XDR display", "Face ID"],
+      "features": [
+        "M1 chip",
+        "Liquid Retina XDR display",
+        "Face ID"
+      ],
       "imageUrl": "https://example.com/ipadpro.jpg"
     },
     {
@@ -225,7 +237,11 @@
       "title": "Adidas Ultraboost 21",
       "price": 180,
       "categoryId": 2,
-      "features": ["Primeknit upper", "Boost midsole", "Responsive cushioning"],
+      "features": [
+        "Primeknit upper",
+        "Boost midsole",
+        "Responsive cushioning"
+      ],
       "imageUrl": "https://example.com/ultraboost21.jpg"
     },
     {
@@ -233,7 +249,11 @@
       "title": "Modern Metal Wall Art",
       "price": 89,
       "categoryId": 4,
-      "features": ["Abstract design", "Hand-painted", "Easy to hang"],
+      "features": [
+        "Abstract design",
+        "Hand-painted",
+        "Easy to hang"
+      ],
       "imageUrl": "https://example.com/metalwallart.jpg"
     },
     {
@@ -309,18 +329,6 @@
       "imageUrl": "https://example.com/cookwareset.jpg"
     },
     {
-      "id": 26,
-      "title": "Dell XPS 13 Laptop",
-      "price": "00",
-      "categoryId": 1,
-      "features": [
-        "Intel Core i7 processor",
-        "13.3-inch InfinityEdge display",
-        "512GB SSD"
-      ],
-      "imageUrl": "https://example.com/dellxps13.jpg"
-    },
-    {
       "id": 27,
       "title": "Bdidas Originals Superstar Sneakers",
       "price": "107",
@@ -343,18 +351,6 @@
         "Seven books in one"
       ],
       "imageUrl": "https://example.com/narnia.jpg"
-    },
-    {
-      "id": 29,
-      "title": "Modern Geometric Wall Mirror",
-      "price": 129,
-      "categoryId": 4,
-      "features": [
-        "Unique geometric design",
-        "Gold-finished frame",
-        "36 inches in diameter"
-      ],
-      "imageUrl": "https://example.com/wallmirror.jpg"
     }
   ]
 }
